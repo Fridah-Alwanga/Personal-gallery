@@ -86,8 +86,8 @@ DATABASES = {
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'photos',
-        'USER': 'moringa',
-    'PASSWORD':'Access',
+        'USER': 'postgres',
+    'PASSWORD':'1234',
 
 
     }
