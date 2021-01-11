@@ -17,7 +17,8 @@ This is an online platform where I display my photos for others to see.A user ca
 
 
 ## Technologies used
-<pre><code>- Python3.6
+<pre><code>
+- Python3.6
 - HTML
 - Bootstrap 4
 - Heroku
@@ -29,3 +30,10 @@ This is an online platform where I display my photos for others to see.A user ca
 ## Install dependancies
 Install dependancies that will create an environment for the app to run <code>pip install -r requirements.txt</code>
 
+## Make and run migrations
+<pre><code>
+python3.7 manage.py check
+python manage.py makemigrations gallery
+python3.7 manage.py sqlmigrate gallery 0001
+python3.7 manage.py migrate
+</code></pre>
