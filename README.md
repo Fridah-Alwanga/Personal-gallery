@@ -24,3 +24,8 @@ This is an online platform where I display my photos for others to see.A user ca
 - Postgresql
 - Django 1.11
 </code></pre>
+
+
+## Install dependancies
+Install dependancies that will create an environment for the app to run <code>pip install -r requirements.txt<code>
+
