@@ -14,10 +14,13 @@ This is an online platform where I display my photos for others to see.A user ca
 5. On your terminal run <code>python3.7 manage.py runserver<code>
 6. Access the live site using the local host provided
 
+
+
 ## Technologies used
-- Python3.6
+<pre><code>- Python3.6
 - HTML
 - Bootstrap 4
 - Heroku
 - Postgresql
 - Django 1.11
+</code></pre>
