@@ -2,12 +2,11 @@
 
 {%block content%}
 {{ block.super}}
-<div class="container-fluid" style="background-image: url('https://images.unsplash.com/photo-1471293413508-2cb95f2d2e9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');  background-repeat: no-repeat; background-size: cover; height: 100vh;  background-position: center; text-align:center; overflow-x:hidden;" >
-    <h1 style="  font-size:50px; margin-top:60px; color:aquamarine; font-family: 'Lobster Two', cursive;" >My Gallery</h1>
-    <p style="color: beige;">This is my gallery where you can view different images.<br> You can search for images with diffrent to their names
-        like food,Media,Flower,Vegetables,Family,Forest,Computer</p>
-    <!-- https://images.pexels.com/photos/356968/pexels-photo-356968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 -->
-    <a href="{% url 'photos' %}" class="btn btn-info btn-small">View Photos</a>
+<div class="container-fluid" style="background-image: url('https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851__340.jpg');  background-repeat: no-repeat; background-size: cover; height: 100vh;  background-position: center; text-align:center; overflow-x:hidden;" >
+    <h1 style="  font-size:80px; margin-top:60px; color:rgb(6, 119, 81); font-family: 'Lobster Two', cursive;" >My Photos</h1>
+    <p style="color: rgb(7, 7, 7); font-size: 50px;">This are my photos where you can view different images.<br><br> You can search for images with diffrent  names.
+        </p><br><br>
+    <a href="{% url 'photos' %}"  class="btn btn-info btn-small">View Photos</a>
 
 </div>
 {%endblock%}

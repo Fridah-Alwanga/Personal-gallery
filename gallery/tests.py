@@ -1,6 +1,7 @@
 from django.test import TestCase
 from .models import Photos, Location, Category
 
+
 # Testing the save method
 
 
@@ -9,18 +10,18 @@ class LocationTestClass(TestCase):
     # set up method
 
     def setUp(self):
-        self.Kinoo = Location(location_name='Kinoo')
-        self.Kinoo.save_location_name()
+        self.Kasarani = Location(location_name='Kasarani')
+        self.Kasarani.save_location_name()
 
 
     def tearDown(self):
         Location.objects.all().delete()
  
     def test_instance(self):
-        self.assertTrue(isinstance(self.Kinoo, Location))
+        self.assertTrue(isinstance(self.Kasarani, Location))
 
     def test_save_method(self):
-        self.Kinoo.save_location_name()
+        self.Kasarani.save_location_name()
         Locations = Location.objects.all()
         print(Locations)
         self.assertTrue(len(Locations)==1)
@@ -32,7 +33,7 @@ class LocationTestClass(TestCase):
 
 
     def test_delete_method(self):
-        self.Kinoo.delete_location_name()
+        self.Kasarani.delete_location_name()
         Locations = Location.objects.all()
         print(Locations)
         self.assertTrue(len(Locations)==0)

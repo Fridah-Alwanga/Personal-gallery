@@ -2,7 +2,7 @@
 
 {% block content%}
 {{ block.super}}
-<!-- <div class="container-fluid"> -->
+
 <div class='container-fluid'>
     <div class="row">
         {% for photos in photo %}
@@ -10,7 +10,7 @@
 
 
             <div class="panel panel-default">
-                <div class="panel-body" style=" box-shadow: 0 4px 8px 0 rgba(11, 10, 14, 0.87)">
+                <div class="panel-body" style=" box-shadow: 0 6px 8px 0 rgba(11, 10, 14, 0.87)">
                     <a href="" data-toggle="modal" data-target="#staticBackdrop{{photos.id}}">
                         <img src="{{photos.photo.url}}" class="img-responsive styled" alt="cant show"></a>
                 </div>
@@ -19,7 +19,7 @@
             </div>
 
 
-            <!-- Modal -->
+        
             <div class="modal fade" id="staticBackdrop{{photos.id}}" data-backdrop="static" data-keyboard="false"
                 tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
