@@ -20,11 +20,11 @@ class LocationTestClass(TestCase):
     def test_instance(self):
         self.assertTrue(isinstance(self.Kasarani, Location))
 
-    # def test_save_method(self):
-    #     self.Kasarani.save_location_name()
-    #     Locations = Location.objects.all()
-    #     print(Locations)
-    #     self.assertTrue(len(Locations)==1)
+    def test_save_method(self):
+        self.Kasarani.save_location_name()
+        Locations = Location.objects.all()
+        print(Locations)
+        self.assertTrue(len(Locations)==1)
 
     # def test_update_location(self):
         new_location.update_location(self.location.id,new_location_name)
