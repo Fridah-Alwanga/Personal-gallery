@@ -1,6 +1,9 @@
 ## PROJECT NAME 
 Personal-gallery
 
+## Author
+Fridah Alwanga
+
 
 ## Github link
 https://github.com/Fridah-Alwanga/Personal-gallery
@@ -41,3 +44,13 @@ python manage.py makemigrations gallery
 python3.7 manage.py sqlmigrate gallery 0001
 python3.7 manage.py migrate
 </code></pre>
+
+
+## Contact Information
+If you have any question or contributions, please email me at [fridahalwanga6@gmail.com]
+
+
+## License
+MIT © @ Fridah Alwanga
+
+
