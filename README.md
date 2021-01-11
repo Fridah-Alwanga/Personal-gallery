@@ -11,7 +11,7 @@ This is an online platform where I display my photos for others to see.A user ca
 2. Clone Project to your machine
 3. Activate a virtual environment on terminal: <code>source virtual/bin/activate</code>
 4. Install all the requirements found in requirements file.
-5. On your terminal run <code>python3.7 manage.py runserver<code>
+5. On your terminal run <code>python3.7 manage.py runserver</code>
 6. Access the live site using the local host provided
 
 
@@ -27,5 +27,5 @@ This is an online platform where I display my photos for others to see.A user ca
 
 
 ## Install dependancies
-Install dependancies that will create an environment for the app to run <code>pip install -r requirements.txt<code>
+Install dependancies that will create an environment for the app to run <code>pip install -r requirements.txt</code>
 
